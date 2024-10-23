@@ -55,6 +55,9 @@
     <string>Codes</string>
    </property>
    <widget class="QTextBrowser" name="textBrowser">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -66,8 +69,14 @@
     <property name="font">
      <font>
       <family>Arial</family>
-      <pointsize>16</pointsize>
+      <pointsize>12</pointsize>
      </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
     </property>
    </widget>
   </widget>
