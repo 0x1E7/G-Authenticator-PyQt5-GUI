@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>G-AUTH</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>380</width>
+     <height>380</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>380</width>
+     <height>380</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>380</width>
+     <height>380</height>
+    </size>
+   </property>
+   <property name="title">
+    <string>Codes</string>
+   </property>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>360</width>
+      <height>350</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLineEdit" name="nameEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>185</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Имя</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="secretEdit">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>400</y>
+     <width>185</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Ключ (Для удаления _)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>430</y>
+     <width>382</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Выполнить</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
