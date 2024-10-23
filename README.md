@@ -1,6 +1,6 @@
 # G-Authenticator-PyQt5-GUI v0.0.1
 
-### WEEABOO exploitation script for game
+### G-Authenticator 6-digit code generator
 \
 | Run main.py\
 | Add name and secret key\
