@@ -45,7 +45,10 @@ def ACCOUNT_ADD(name: str, secret: str) -> None:
 def ACCOUNT_REMOVE(name: str) -> None:
 	with open(secrets_file, "rb") as f:
 		loaded_dict = pickle.load(f)
-		del loaded_dict[name]
+		try:
+			del loaded_dict[name]
+		except:
+			pass
 	with open(secrets_file, "wb") as f:
 		pickle.dump(loaded_dict, f)
 
